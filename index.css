@@ -1,16 +1,21 @@
 body {
-    background-image: url("two.jpg");
+    background-image: url("twwo.jpg");
     background-size: cover;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-weight: bold;
     text-align: center; 
-    background-size: cover;
-    background-attachment: fixed;
     }
-
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
 h1 {
     margin-top: 10px;
     margin-bottom: 10px; 
+    color:white;
 }
 
 h2 {
@@ -18,6 +23,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: bold;
+    color: white;
 }
 
 button {
@@ -32,10 +38,14 @@ button {
 }
 
 #increment-btn {
-    background: blueviolet;
+    background: palevioletred;
 }
 
 #save-btn {
-    background: darkgrey;
+    background: darkcyan;
 }
-
+#save-el
+{
+    color:aliceblue;
+    font-size: larger;
+}
